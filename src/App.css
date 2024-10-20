@@ -13,3 +13,12 @@ a {
   color: unset;
   text-decoration: none;
 }
+
+.gradient__bg {
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 6, 24, 1) 100%
+  );
+}
