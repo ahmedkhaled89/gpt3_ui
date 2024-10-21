@@ -26,3 +26,9 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.gpt3__navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
