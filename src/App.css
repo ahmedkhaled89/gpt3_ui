@@ -26,4 +26,5 @@ a {
 .gradient__text {
   background: var(--gradient-text);
   background-clip: text;
+  color: transparent;
 }
