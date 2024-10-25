@@ -117,3 +117,29 @@
     margin: 0 0 3rem;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .gpt3__header h1 {
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  .gpt3__header p {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .gpt3__header-content__people {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gpt3__header-content__input input,
+  .gpt3__header-content__input button {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
